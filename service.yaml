@@ -4,7 +4,7 @@ metadata:
   name: httpd-service
   namespace: default
 spec:
-  type: NodePort # This will provision a Linode NodeBalancer automatically
+  type: LoadBalancer # This will provision a Linode NodeBalancer automatically
   ports:
   - port: 80
     targetPort: 80
