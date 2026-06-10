@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: httpd
-        image: httpd:alpine3.23
+        image: ashish2706/argo-httpd-hairsalon:latest
         ports:
         - containerPort: 80
