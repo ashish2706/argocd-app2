@@ -17,6 +17,7 @@ spec:
     spec:
       containers:
       - name: httpd
-        image: ashish2706/argo-httpd-hairsalon:latest
+        image: ashish2706/argo-httpd-hairsalon:v2
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
